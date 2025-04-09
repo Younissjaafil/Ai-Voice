@@ -45,7 +45,7 @@ iface = gr.Interface(
         gr.Textbox(label='Text'),
         gr.Audio(type='filepath', label='Voice reference audio file'),
         gr.Dropdown(
-            choices=["en", "fr", "es", "de", "it", "ar", "zh", "ru", "ja"],
+            choices=["en", "fr", "es", "de", "it", "pl", "ar", "zh", "ru", "ja"],
             value="en",
             label="Select Language"
         )
